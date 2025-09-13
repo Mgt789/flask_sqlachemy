@@ -3,12 +3,13 @@
         "local_server": "True",
         "local_uri": "mysql+mysqldb://root:Chan%40quadwave@localhost/blogPost",
         "prod_uri": "mysql+mysqldb://root:Chan%40quadwave@localhost/blogPost",
-        "fb_url":"https://www.facebook.com/chandan.meher.948cm/",
-        "git_url":"https://github.com/Mgt789",
-        "linkedin_url":"https://www.linkedin.com/authwall?trkInfo=AQEmEvQRPtginAAAAZkvqviwmJFQ2MjArv7YgzQlX5A9uOC6ayrmnuGIUM-TQpMfykWgUCAXI95HlOL8hcTxbHoPGzMNukLt7rOWE84RXyk59TYYh8T5rT_9n35dEU8GXAUFg80=&original_referer=https://mgtportfolio.netlify.app/&sessionRedirect=https%3A%2F%2Fin.linkedin.com%2Fin%2Fchandan-meher-b81ab5135",
+        "fb_url": "https://www.facebook.com/chandan.meher.948cm/",
+        "git_url": "https://github.com/Mgt789",
+        "linkedin_url": "https://www.linkedin.com/authwall?trkInfo=AQEmEvQRPtginAAAAZkvqviwmJFQ2MjArv7YgzQlX5A9uOC6ayrmnuGIUM-TQpMfykWgUCAXI95HlOL8hcTxbHoPGzMNukLt7rOWE84RXyk59TYYh8T5rT_9n35dEU8GXAUFg80=&original_referer=https://mgtportfolio.netlify.app/&sessionRedirect=https%3A%2F%2Fin.linkedin.com%2Fin%2Fchandan-meher-b81ab5135",
         "blog_name": "MGT Blog",
-        "tag_line":"A Blog by MGT Group",
+        "tag_line": "A Blog by MGT Group",
         "gmail_user": "ignitetheride@gmail.com",
-        "gmail_password": "fpde kdjl rxnn xwui"
+        "gmail_password": "fpde kdjl rxnn xwui",
+        "about": "Hello! I’m Meher, a curious learner and aspiring developer with a passion for building things on the web. I enjoy exploring new technologies, solving problems, and turning ideas into simple, functional applications. I started my journey with Python and quickly discovered the power of frameworks like Flask for web development. Since then, I’ve been experimenting with small projects, blogs, and creative web apps to sharpen my skills. Beyond coding, I love reading, writing, and sharing knowledge. I believe that technology should be approachable and enjoyable, and I aim to create content and applications that reflect this philosophy. When I’m not at my computer, you’ll probably find me enjoying a good book, sketching out ideas for my next project, or exploring new tools to improve my workflow."
     }
 }

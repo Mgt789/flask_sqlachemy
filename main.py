@@ -37,7 +37,20 @@ class Contacts(db.Model):
     email = db.Column(db.String(45), nullable=False)
     phone_number = db.Column(db.String(20), nullable=False)
     message = db.Column(db.Text, nullable=False)
-    date = db.Column(db.DateTime, default=datetime.utcnow)
+    date = db.Column(db.String(12), default=datetime.utcnow)
+
+
+class Posts(db.Model):
+    __tablename__ = "post"
+    # sno, title, slug, content, author
+
+    sno = db.Column(db.Integer, primary_key=True, autoincrement=True)  # ✅
+    title = db.Column(db.String(45), nullable=False)
+    slug = db.Column(db.String(25), nullable=False)
+    content = db.Column(db.String(1000), nullable=False)
+    img_file = db.Column(db.String(12), nullable=False)
+    date = db.Column(db.String(12), default=datetime.utcnow)
+    author = db.Column(db.String(45), nullable=False)
 
 
 @app.route("/")
@@ -79,9 +92,11 @@ def contact():
     return render_template("contact.html", params=params)
 
 
-@app.route("/post")
-def post():
-    return render_template("post.html", params=params)
+@app.route("/post/<string:post_slug>", methods=["GET"])
+def post_route(post_slug):
+    post = Posts.query.filter_by(slug=post_slug).first()
+
+    return render_template("post.html", params=params, post=post)
 
 
 if __name__ == "__main__":
